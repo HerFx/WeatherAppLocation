@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("./img/pexels-aleksandar-pasaric-325185.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+div {
+    position: absolute;
+    width: 50vh;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    background: #d2e0eb;
+    ;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3vw;
+    align-items: center;
+    -webkit-box-shadow: 3px 3px 13px -0.5px #000000;
+    -moz-box-shadow: 3px 3px 13px -0.5px #000000;
+    box-shadow: 3px 3px 13px -0.5px #000000;
+
+
+}
+
+img {
+    width: 20vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
